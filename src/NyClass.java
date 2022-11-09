@@ -1,2 +1,16 @@
-package PACKAGE_NAME;public class NyClass {
-}
+public class NyClass {
+
+    String name;
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    }
+

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main01 {
     public static void main(String[] args) {
-        System.out.println("Hej välkommen till min checkpoint Tony");
+        System.out.println("Hej välkommen till min checkpoint Tony, här kommer lite random kod");
         ArrayList<NyClass> it = new ArrayList<NyClass>();
         Scanner scanner = new Scanner(System.in);
         Boolean isAddMore;
@@ -15,10 +15,6 @@ public class Main01 {
             String name = scanner.next();
             item.setName(name);
 
-            System.out.print("Please enter the price:");
-            int price = scanner.nextInt();
-            NyClass.setPrice(price);
-            // add item to Shoppinglist.
             it.add(item);
 
             System.out.println("Do you want to add more items? y/n");
@@ -33,9 +29,10 @@ public class Main01 {
             }
         } while(isAddMore);
 
-    }
-}
+        System.out.print("Vet inte om detta är rätt men jag lägger in en kod i den nya branchen");
 
 
     }
 }
+
+

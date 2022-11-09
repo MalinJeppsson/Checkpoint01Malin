@@ -29,7 +29,7 @@ public class Main01 {
             }
         } while(isAddMore);
 
-        System.out.print("Vet inte om detta är rätt men jag lägger in en kod i den nya branchen");
+        System.out.print("Okej ,Vet inte om detta är rätt men jag lägger in en kod i den nya branchen");
 
 
     }
